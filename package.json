@@ -1,0 +1,23 @@
+{
+  "name": "bleh",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^7.0.1"
+  },
+  "dependencies": {
+    "@glennsl/bs-json": "^5.0.2",
+    "bs-fetch": "^0.5.2",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}
